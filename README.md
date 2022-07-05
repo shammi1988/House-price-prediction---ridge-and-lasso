@@ -24,19 +24,22 @@ You are required to model the price of houses with the available independent var
 #### The higher values of positive coeeficients suggest a high sale value.
 
 #### Some of those features are:-
- 
-- GrLivArea  
-- OverallQual 
-- OverallCond  
-- TotalBsmtSF 
-- GarageArea  
+ |  Feature  |  Description  |
+ |  ---  |  ---  |
+ |  GrLivArea  |  Above grade (ground) living area square feet  |
+ |  OverallQual  |  Rates the overall material and finish of the house  |
+ |  OverallCond  |  Rates the overall condition of the house  |
+ |  TotalBsmtSF  |  Total square feet of basement area  |
+ |  GarageArea   |Size of garage in square feet  |
         
 #### The higher values of negative coeeficients suggest a decrease in sale value.
 
 #### Some of those features are:-
-  
-- PropAge
-- MSSubClass 
+   |  Feature  |  Description  |
+   |  ---  |  ---  |
+   |  PropAge  |  Age of the property at the time of seeling  |
+   |  MSSubClass  |  Identifies the type of dwelling involved in the sale  |
+    
 
 #### When the market value of the property is lower than the Predicted Sale Price, its the time to buy.
 
